@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656415246112' stop='1656415260887'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1656415246115' status='broken' stop='1656415260830'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656415246121' status='passed' stop='1656415260652'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b57e4d4b-f0cd-42bd-91ac-b014d07d87d3-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656415260656' status='broken' stop='1656415260829'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b813c0be-6255-4ec9-ba5a-928ea87f4c2b-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1656415260775' status='broken' stop='1656415260829'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=103.0.5060.66)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=103.0.5060.66)
+                    at getErrorFromResponseBody (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async LoginPage.login (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\test\pageobjects\login.page.js:29:9)
+                    at async Context.&lt;anonymous> (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\test\specs\example.e2e.js:8:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656415260832' status='passed' stop='1656415260857'>
+            <name>should logout and check the alert message for logout</name>
+            <title>should logout and check the alert message for logout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656415260839' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6e94d8a0-6a43-410b-8ac7-d3cefd5c0e83-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps>
+                        <step start='1656415260847' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='acc12137-795a-492a-bfd3-362f0e0666bb-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

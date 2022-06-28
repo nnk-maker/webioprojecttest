@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656417074139' stop='1656417084436'>
+    <name>Main Block</name>
+    <title>Main Block</title>
+    <test-cases>
+        <test-case start='1656417074140' status='failed' stop='1656417084435'>
+            <name>Verify list items</name>
+            <title>Verify list items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656417074153' status='passed' stop='1656417075665'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1115ad20-a3d4-4b57-989e-52e302bc212c-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps>
+                        <step start='1656417074163' status='passed' stop='1656417074206'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='503d6855-e04c-421d-a484-dd7dead9cb7f-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='521bda09-11cd-4f66-ad46-21c348333c82-attachment.json' type='application/json' size='1019'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1656417084239' status='passed' stop='1656417084433'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9598ae45-8966-4258-b5ac-c7e417f9c946-attachment.png' type='image/png' size='106534'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect $(`ul li`) to be elements array of size
+                
+                Expected: 44
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`ul li`) to be elements array of size
+                
+                Expected: 44
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\test\specs\main.e2e.js:5:36)
+                    at Context.executeAsync (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -17,6 +17,11 @@ describe('My Login application', () => {
         expect(SecurePage.flashAlert).toHaveTextContaining(' You logged out of the secure area!');
     });
 
+    it('list items check', async () => {
+        const listExamples = $$('ul li');
+        await expect(listExamples).toBeElementsArrayOfSize(44);
+
+    });
     
 });
 
