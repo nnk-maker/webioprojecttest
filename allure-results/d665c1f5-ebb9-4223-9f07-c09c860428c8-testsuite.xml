@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656422602056' stop='1656422623243'>
+    <name>Dynamic Loading Page</name>
+    <title>Dynamic Loading Page</title>
+    <test-cases>
+        <test-case start='1656422602057' status='broken' stop='1656422623242'>
+            <name>wait for the hidden element to show</name>
+            <title>wait for the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656422602060' status='passed' stop='1656422602097'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0349fbf7-b316-436f-9343-d9c7a38be08f-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='0a015bb8-d4e4-4f70-8489-b75690f4f66f-attachment.json' type='application/json' size='1027'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656422602117' status='passed' stop='1656422623240'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a2395cd5-f0c9-471a-883c-7a14cac329c5-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Screenshot' source='ee73e3c3-ad25-4fb4-9369-ee9285c28ac7-attachment.png' type='image/png' size='59216'/>
+                    </attachments>
+                    <steps>
+                        <step start='1656422602128' status='passed' stop='1656422622969'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='e7521097-857c-4739-add7-fa06b57e5a3b-attachment.json' type='application/json' size='67'/>
+                                <attachment title='Response' source='216ee3ea-3b1f-4b76-a9ed-df51b65667c6-attachment.json' type='application/json' size='93'/>
+                            </attachments>
+                            <steps>
+                                <step start='1656422602145' status='passed' stop='1656422602176'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='38ad83c9-50c0-45bb-86b3-2a762badfa79-attachment.json' type='application/json' size='57'/>
+                                        <attachment title='Response' source='0398fef3-bc54-4082-9740-e51d07635543-attachment.json' type='application/json' size='1021'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1656422602194' status='passed' stop='1656422622946'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='dc9289d3-ff74-44fb-a115-d3ba965ba970-attachment.json' type='application/json' size='51'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1656422622975' status='passed' stop='1656422623003'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='18460281-b1db-41a1-9a09-8f8409ce1ff6-attachment.json' type='application/json' size='57'/>
+                                <attachment title='Response' source='5fda63ae-898d-4e1b-b15c-51d7f679a29e-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1656422623007' status='passed' stop='1656422623020'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='64f431a1-d1de-4b1c-855b-dee18a6cd632-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Response' source='b536594b-5fed-4668-8015-31ce65257aff-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1656422623026' status='passed' stop='1656422623033'>
+                            <name>POST /session/:sessionId/element/771b85ff-b6f9-48b0-8302-bd26296f5e02/click</name>
+                            <title>POST /session/:sessionId/element/771b85ff-b6f9-48b0-8302-bd26296f5e02/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1656422623035' status='passed' stop='1656422623094'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("#finish") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("#finish") still not displayed after 10000ms
+                    at C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\test\specs\dynamic-loading.e2e.js:13:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

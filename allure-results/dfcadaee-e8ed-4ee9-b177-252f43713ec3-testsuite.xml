@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656425047212' stop='1656425047572'>
+    <name>Dynamic Loading Page</name>
+    <title>Dynamic Loading Page</title>
+    <test-cases>
+        <test-case start='1656425047213' status='broken' stop='1656425047571'>
+            <name>wait for the hidden element to show</name>
+            <title>wait for the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656425047226' status='passed' stop='1656425047307'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ed7f57a0-8630-45b4-b936-f275954e186a-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='9236e90c-a0f1-486f-9603-67e68d9acf0b-attachment.json' type='application/json' size='1027'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656425047322' status='passed' stop='1656425047355'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='25cea86c-435c-455c-801f-b4b2d3e22d4b-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='8e9739ad-2f84-45f7-bca3-1a8774bb8bfc-attachment.json' type='application/json' size='1024'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656425047365' status='broken' stop='1656425047571'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1656425047374' status='broken' stop='1656425047571'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='126ef650-8e5c-4219-91c2-451babfb420c-attachment.json' type='application/json' size='67'/>
+                            </attachments>
+                            <steps>
+                                <step start='1656425047382' status='broken' stop='1656425047571'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='90531d28-f0a3-4fd9-a403-3676ab4db706-attachment.json' type='application/json' size='54'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1656425047403' status='passed' stop='1656425047569'>
+                                            <name>POST /session/:sessionId/elements</name>
+                                            <title>POST /session/:sessionId/elements</title>
+                                            <attachments>
+                                                <attachment title='Request' source='6a73d4cd-332d-4913-b815-d69a258d2f7d-attachment.json' type='application/json' size='57'/>
+                                                <attachment title='Screenshot' source='55a41032-bdd8-4a74-9a7e-cba16dfd3ccc-attachment.png' type='image/png' size='6535'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>textFinish.waitForDisplayed(...).getText is not a function</message>
+                <stack-trace>TypeError: textFinish.waitForDisplayed(...).getText is not a function
+                    at Context.&lt;anonymous> (C:\Users\krish\OneDrive\Desktop\projecrrepository\livechat\webio\webioproject\test\specs\dynamic-loading.e2e.js:14:49)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
