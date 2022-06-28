@@ -1,0 +1,112 @@
+{
+  "uid" : "f1ae6dadb126d941",
+  "name" : "Verify items",
+  "fullName" : "Main Block.Verify items",
+  "historyId" : "ac6055d621e0422e4d9b39dfe7f44d86",
+  "time" : {
+    "start" : 1656414263133,
+    "stop" : 1656414263162,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656414263142,
+        "stop" : 0,
+        "duration" : -1656414263142
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1656414263153,
+          "stop" : 0,
+          "duration" : -1656414263153
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1111d8239256e1eb",
+          "name" : "Request",
+          "source" : "1111d8239256e1eb.json",
+          "type" : "application/json",
+          "size" : 50
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "490a3c9378882a4b",
+        "name" : "Request",
+        "source" : "490a3c9378882a4b.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Main Block"
+  }, {
+    "name" : "testClass",
+    "value" : "Main Block"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify items"
+  }, {
+    "name" : "package",
+    "value" : "Main Block"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1ae6dadb126d941.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

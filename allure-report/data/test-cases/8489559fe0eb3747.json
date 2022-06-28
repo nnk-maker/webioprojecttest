@@ -1,0 +1,237 @@
+{
+  "uid" : "8489559fe0eb3747",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "a8e9dd4e8b3135358cd6180968fffa68",
+  "time" : {
+    "start" : 1656419905875,
+    "stop" : 1656419906193,
+    "duration" : 318
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:48)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:48)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656419905895,
+        "stop" : 1656419906192,
+        "duration" : 297
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:48)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1656419905927,
+          "stop" : 1656419906192,
+          "duration" : 265
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:48)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1656419905939,
+            "stop" : 1656419906192,
+            "duration" : 253
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:48)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/url",
+            "time" : {
+              "start" : 1656419905949,
+              "stop" : 1656419905998,
+              "duration" : 49
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "47fc7a29819c2e68",
+              "name" : "Request",
+              "source" : "47fc7a29819c2e68.json",
+              "type" : "application/json",
+              "size" : 67
+            }, {
+              "uid" : "a13d533f6357bc0a",
+              "name" : "Response",
+              "source" : "a13d533f6357bc0a.json",
+              "type" : "application/json",
+              "size" : 1027
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2
+          }, {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1656419906020,
+              "stop" : 1656419906037,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "a12ec29a81034efd",
+              "name" : "Request",
+              "source" : "a12ec29a81034efd.json",
+              "type" : "application/json",
+              "size" : 57
+            }, {
+              "uid" : "939504798fd3f782",
+              "name" : "Response",
+              "source" : "939504798fd3f782.json",
+              "type" : "application/json",
+              "size" : 1024
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2
+          }, {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1656419906058,
+              "stop" : 1656419906192,
+              "duration" : 134
+            },
+            "status" : "failed",
+            "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:48)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/elements",
+              "time" : {
+                "start" : 1656419906072,
+                "stop" : 1656419906190,
+                "duration" : 118
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "b391f62ecd7943ab",
+                "name" : "Request",
+                "source" : "b391f62ecd7943ab.json",
+                "type" : "application/json",
+                "size" : 54
+              }, {
+                "uid" : "d7b28eb478822668",
+                "name" : "Screenshot",
+                "source" : "d7b28eb478822668.png",
+                "type" : "image/png",
+                "size" : 6535
+              } ],
+              "parameters" : [ ],
+              "hasContent" : true,
+              "stepsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "attachmentsCount" : 2
+            } ],
+            "attachments" : [ {
+              "uid" : "ba48a2fd0c05e7c0",
+              "name" : "Request",
+              "source" : "ba48a2fd0c05e7c0.json",
+              "type" : "application/json",
+              "size" : 54
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 1,
+            "shouldDisplayMessage" : true,
+            "attachmentsCount" : 3
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 7
+        } ],
+        "attachments" : [ {
+          "uid" : "d94acb597f3247e3",
+          "name" : "Request",
+          "source" : "d94acb597f3247e3.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 8
+      } ],
+      "attachments" : [ {
+        "uid" : "3d64517d457ce04a",
+        "name" : "Request",
+        "source" : "3d64517d457ce04a.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 9
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8489559fe0eb3747.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

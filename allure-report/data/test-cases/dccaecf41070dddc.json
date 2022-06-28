@@ -1,0 +1,286 @@
+{
+  "uid" : "dccaecf41070dddc",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "a8e9dd4e8b3135358cd6180968fffa68",
+  "time" : {
+    "start" : 1656429146735,
+    "stop" : 1656429147061,
+    "duration" : 326
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656429146741,
+        "stop" : 1656429146780,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e081392ef62686fc",
+        "name" : "Request",
+        "source" : "e081392ef62686fc.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "ec2547692cff22ca",
+        "name" : "Response",
+        "source" : "ec2547692cff22ca.json",
+        "type" : "application/json",
+        "size" : 1027
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656429146796,
+        "stop" : 1656429146846,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f149388cab3aa2f",
+        "name" : "Request",
+        "source" : "2f149388cab3aa2f.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "47cef3720b0f3eb7",
+        "name" : "Response",
+        "source" : "47cef3720b0f3eb7.json",
+        "type" : "application/json",
+        "size" : 1024
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656429146863,
+        "stop" : 1656429147060,
+        "duration" : 197
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656429146875,
+          "stop" : 1656429147060,
+          "duration" : 185
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1656429146882,
+            "stop" : 1656429147060,
+            "duration" : 178
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1656429146896,
+              "stop" : 1656429147060,
+              "duration" : 164
+            },
+            "status" : "failed",
+            "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/elements",
+              "time" : {
+                "start" : 1656429146905,
+                "stop" : 1656429146930,
+                "duration" : 25
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "e101b9c3a42da297",
+                "name" : "Request",
+                "source" : "e101b9c3a42da297.json",
+                "type" : "application/json",
+                "size" : 57
+              }, {
+                "uid" : "6ea0aeca4ab36498",
+                "name" : "Response",
+                "source" : "6ea0aeca4ab36498.json",
+                "type" : "application/json",
+                "size" : 1022
+              } ],
+              "parameters" : [ ],
+              "hasContent" : true,
+              "stepsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "attachmentsCount" : 2
+            }, {
+              "name" : "POST /session/:sessionId/element",
+              "time" : {
+                "start" : 1656429146936,
+                "stop" : 1656429147060,
+                "duration" : 124
+              },
+              "status" : "failed",
+              "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/element",
+                "time" : {
+                  "start" : 1656429146943,
+                  "stop" : 1656429147059,
+                  "duration" : 116
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "32b1d130c4696595",
+                  "name" : "Request",
+                  "source" : "32b1d130c4696595.json",
+                  "type" : "application/json",
+                  "size" : 52
+                }, {
+                  "uid" : "fdad500b47e905f",
+                  "name" : "Screenshot",
+                  "source" : "fdad500b47e905f.png",
+                  "type" : "image/png",
+                  "size" : 6535
+                } ],
+                "parameters" : [ ],
+                "hasContent" : true,
+                "stepsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "attachmentsCount" : 2
+              } ],
+              "attachments" : [ {
+                "uid" : "b2d81970b60d8dd4",
+                "name" : "Request",
+                "source" : "b2d81970b60d8dd4.json",
+                "type" : "application/json",
+                "size" : 52
+              } ],
+              "parameters" : [ ],
+              "hasContent" : true,
+              "stepsCount" : 1,
+              "shouldDisplayMessage" : true,
+              "attachmentsCount" : 3
+            } ],
+            "attachments" : [ {
+              "uid" : "b479097c2dcf9ca5",
+              "name" : "Request",
+              "source" : "b479097c2dcf9ca5.json",
+              "type" : "application/json",
+              "size" : 54
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 3,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 6
+          } ],
+          "attachments" : [ {
+            "uid" : "d7cb1c388720c9d",
+            "name" : "Request",
+            "source" : "d7cb1c388720c9d.json",
+            "type" : "application/json",
+            "size" : 67
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 7
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 7
+      } ],
+      "attachments" : [ {
+        "uid" : "a73d093d88c2dac5",
+        "name" : "Request",
+        "source" : "a73d093d88c2dac5.json",
+        "type" : "application/json",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 8
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dccaecf41070dddc.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

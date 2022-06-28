@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 28 21:40:54 CEST 2022","Tue Jun 28 21:40:58 CEST 2022","4451","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"failed","Tue Jun 28 21:40:54 CEST 2022","Tue Jun 28 21:40:55 CEST 2022","1048","","Dynamic Loading Page","","Dynamic Loading Page","wait for the hidden element to show","wait for the hidden element to show",""
+"passed","Tue Jun 28 13:08:59 CEST 2022","Tue Jun 28 13:08:59 CEST 2022","41","","Main Block","","Main Block","Verify items","Verify items",""
+"passed","Tue Jun 28 21:40:58 CEST 2022","Tue Jun 28 21:40:58 CEST 2022","12","","My Login application","","My Login application","should logout and check the alert message for logout","should logout and check the alert message for logout",""
+"passed","Tue Jun 28 21:40:54 CEST 2022","Tue Jun 28 21:40:56 CEST 2022","2785","","Main Block","","Main Block","Verify list items","Verify list items",""
+"passed","Tue Jun 28 12:12:20 CEST 2022","Tue Jun 28 12:12:20 CEST 2022","14","","My Login application","","My Login application","logout alert message","logout alert message",""
+"failed","Tue Jun 28 21:40:58 CEST 2022","Tue Jun 28 21:41:08 CEST 2022","10290","","My Login application","","My Login application","list items check","list items check",""

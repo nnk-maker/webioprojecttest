@@ -1,0 +1,215 @@
+{
+  "uid" : "978808f243f5c709",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "a8e9dd4e8b3135358cd6180968fffa68",
+  "time" : {
+    "start" : 1656420224040,
+    "stop" : 1656420224428,
+    "duration" : 388
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "textFinish.waitForDisplayed(...).getText is not a function",
+  "statusTrace" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "textFinish.waitForDisplayed(...).getText is not a function",
+    "statusTrace" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656420224054,
+        "stop" : 1656420224137,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7049e27ca0bd4a2",
+        "name" : "Request",
+        "source" : "b7049e27ca0bd4a2.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "c10b1c3772d8d9a6",
+        "name" : "Response",
+        "source" : "c10b1c3772d8d9a6.json",
+        "type" : "application/json",
+        "size" : 1027
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656420224156,
+        "stop" : 1656420224428,
+        "duration" : 272
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656420224172,
+          "stop" : 1656420224428,
+          "duration" : 256
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1656420224179,
+            "stop" : 1656420224428,
+            "duration" : 249
+          },
+          "status" : "broken",
+          "statusMessage" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:13:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1656420224190,
+              "stop" : 1656420224238,
+              "duration" : 48
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ead807787a68d696",
+              "name" : "Request",
+              "source" : "ead807787a68d696.json",
+              "type" : "application/json",
+              "size" : 57
+            }, {
+              "uid" : "1c329418183eeca6",
+              "name" : "Response",
+              "source" : "1c329418183eeca6.json",
+              "type" : "application/json",
+              "size" : 1024
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2
+          }, {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1656420224252,
+              "stop" : 1656420224426,
+              "duration" : 174
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "95a1d05822ed0f7c",
+              "name" : "Request",
+              "source" : "95a1d05822ed0f7c.json",
+              "type" : "application/json",
+              "size" : 54
+            }, {
+              "uid" : "2a7217d5d418e245",
+              "name" : "Screenshot",
+              "source" : "2a7217d5d418e245.png",
+              "type" : "image/png",
+              "size" : 6535
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2
+          } ],
+          "attachments" : [ {
+            "uid" : "7a50bb6424d8e590",
+            "name" : "Request",
+            "source" : "7a50bb6424d8e590.json",
+            "type" : "application/json",
+            "size" : 67
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "shouldDisplayMessage" : true,
+          "attachmentsCount" : 5
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 5
+      } ],
+      "attachments" : [ {
+        "uid" : "13dcea8859502686",
+        "name" : "Request",
+        "source" : "13dcea8859502686.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 6
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "978808f243f5c709.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,215 @@
+{
+  "uid" : "7f9723334a028a4c",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "a8e9dd4e8b3135358cd6180968fffa68",
+  "time" : {
+    "start" : 1656424937290,
+    "stop" : 1656424937549,
+    "duration" : 259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "textFinish.waitForDisplayed(...).getText is not a function",
+  "statusTrace" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:14:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "textFinish.waitForDisplayed(...).getText is not a function",
+    "statusTrace" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:14:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656424937294,
+        "stop" : 1656424937328,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b953c5c03ab60a9",
+        "name" : "Request",
+        "source" : "8b953c5c03ab60a9.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "4c6c694734eaf3fb",
+        "name" : "Response",
+        "source" : "4c6c694734eaf3fb.json",
+        "type" : "application/json",
+        "size" : 1027
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656424937342,
+        "stop" : 1656424937363,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4dde3f0f34bdce19",
+        "name" : "Request",
+        "source" : "4dde3f0f34bdce19.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "f2b961568aa40ba0",
+        "name" : "Response",
+        "source" : "f2b961568aa40ba0.json",
+        "type" : "application/json",
+        "size" : 1021
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656424937374,
+        "stop" : 1656424937549,
+        "duration" : 175
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:14:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1656424937376,
+          "stop" : 1656424937549,
+          "duration" : 173
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:14:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1656424937381,
+            "stop" : 1656424937549,
+            "duration" : 168
+          },
+          "status" : "broken",
+          "statusMessage" : "TypeError: textFinish.waitForDisplayed(...).getText is not a function\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:14:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1656424937389,
+              "stop" : 1656424937547,
+              "duration" : 158
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "8c58c7c2a6de73af",
+              "name" : "Request",
+              "source" : "8c58c7c2a6de73af.json",
+              "type" : "application/json",
+              "size" : 57
+            }, {
+              "uid" : "34fae4b23592bcd7",
+              "name" : "Screenshot",
+              "source" : "34fae4b23592bcd7.png",
+              "type" : "image/png",
+              "size" : 6535
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2
+          } ],
+          "attachments" : [ {
+            "uid" : "df9a2947aa85b600",
+            "name" : "Request",
+            "source" : "df9a2947aa85b600.json",
+            "type" : "application/json",
+            "size" : 51
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "shouldDisplayMessage" : true,
+          "attachmentsCount" : 3
+        } ],
+        "attachments" : [ {
+          "uid" : "9118bcccbd92133e",
+          "name" : "Request",
+          "source" : "9118bcccbd92133e.json",
+          "type" : "application/json",
+          "size" : 67
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 4
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f9723334a028a4c.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

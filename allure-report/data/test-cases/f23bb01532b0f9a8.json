@@ -1,0 +1,162 @@
+{
+  "uid" : "f23bb01532b0f9a8",
+  "name" : "should logout and check the alert message for logout",
+  "fullName" : "My Login application.should logout and check the alert message for logout",
+  "historyId" : "a23b213bbda98beca8d63ec44c85ad0c",
+  "time" : {
+    "start" : 1656445258652,
+    "stop" : 1656445258664,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656445258654,
+        "stop" : 0,
+        "duration" : -1656445258654
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1656445258660,
+          "stop" : 0,
+          "duration" : -1656445258660
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2fe173c16b03c17a",
+          "name" : "Request",
+          "source" : "2fe173c16b03c17a.json",
+          "type" : "application/json",
+          "size" : 50
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "19e893926c8cddf7",
+        "name" : "Request",
+        "source" : "19e893926c8cddf7.json",
+        "type" : "application/json",
+        "size" : 63
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should logout and check the alert message for logout"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4371cee5550ca91e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656444369099,
+        "stop" : 1656444369114,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "1d4511038ff6412e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656443011067,
+        "stop" : 1656443011077,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "336ea41ba852e060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656415260832,
+        "stop" : 1656415260857,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "aefe9ab952bed9e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656415134088,
+        "stop" : 1656415134099,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "bbc1c24f7829afcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656412315219,
+        "stop" : 1656412315230,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "1108ce8309125eca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411910666,
+        "stop" : 1656411910673,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f23bb01532b0f9a8.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

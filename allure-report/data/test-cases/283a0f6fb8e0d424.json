@@ -1,0 +1,904 @@
+{
+  "uid" : "283a0f6fb8e0d424",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "a8e9dd4e8b3135358cd6180968fffa68",
+  "time" : {
+    "start" : 1656445254039,
+    "stop" : 1656445255087,
+    "duration" : 1048
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 68,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656445254052,
+        "stop" : 1656445254340,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71dd5a6f60a2aae2",
+        "name" : "Request",
+        "source" : "71dd5a6f60a2aae2.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "29c5ff457fcbb6a6",
+        "name" : "Response",
+        "source" : "29c5ff457fcbb6a6.json",
+        "type" : "application/json",
+        "size" : 1027
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656445254360,
+        "stop" : 1656445254587,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ee345a78f6d6e3d",
+        "name" : "Request",
+        "source" : "9ee345a78f6d6e3d.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "dd9a33fc073aed65",
+        "name" : "Response",
+        "source" : "dd9a33fc073aed65.json",
+        "type" : "application/json",
+        "size" : 1024
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656445254592,
+        "stop" : 1656445254696,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "178cb3335a905773",
+        "name" : "Request",
+        "source" : "178cb3335a905773.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "d35ee1bec59632c6",
+        "name" : "Response",
+        "source" : "d35ee1bec59632c6.json",
+        "type" : "application/json",
+        "size" : 1022
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656445254714,
+        "stop" : 1656445255086,
+        "duration" : 372
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1656445254717,
+          "stop" : 1656445255086,
+          "duration" : 369
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1656445254721,
+            "stop" : 1656445255086,
+            "duration" : 365
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1656445254728,
+              "stop" : 1656445255086,
+              "duration" : 358
+            },
+            "status" : "failed",
+            "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/elements",
+              "time" : {
+                "start" : 1656445254734,
+                "stop" : 1656445255086,
+                "duration" : 352
+              },
+              "status" : "failed",
+              "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:18:47)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/elements",
+                "time" : {
+                  "start" : 1656445254746,
+                  "stop" : 1656445255082,
+                  "duration" : 336
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "997919a108258c41",
+                  "name" : "Request",
+                  "source" : "997919a108258c41.json",
+                  "type" : "application/json",
+                  "size" : 57
+                }, {
+                  "uid" : "bd17af327c5ec321",
+                  "name" : "Screenshot",
+                  "source" : "bd17af327c5ec321.png",
+                  "type" : "image/png",
+                  "size" : 6535
+                } ],
+                "parameters" : [ ],
+                "hasContent" : true,
+                "stepsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "attachmentsCount" : 2
+              } ],
+              "attachments" : [ {
+                "uid" : "1e13a7cf60f6cbbe",
+                "name" : "Request",
+                "source" : "1e13a7cf60f6cbbe.json",
+                "type" : "application/json",
+                "size" : 54
+              } ],
+              "parameters" : [ ],
+              "hasContent" : true,
+              "stepsCount" : 1,
+              "shouldDisplayMessage" : true,
+              "attachmentsCount" : 3
+            } ],
+            "attachments" : [ {
+              "uid" : "74cfb9a7a9c9065f",
+              "name" : "Request",
+              "source" : "74cfb9a7a9c9065f.json",
+              "type" : "application/json",
+              "size" : 52
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 4
+          } ],
+          "attachments" : [ {
+            "uid" : "b4d303c407c3b090",
+            "name" : "Request",
+            "source" : "b4d303c407c3b090.json",
+            "type" : "application/json",
+            "size" : 52
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 5
+        } ],
+        "attachments" : [ {
+          "uid" : "653cf51ee036cf76",
+          "name" : "Request",
+          "source" : "653cf51ee036cf76.json",
+          "type" : "application/json",
+          "size" : 67
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 6
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 6
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb9ef2e4fd0ca66",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656444363299,
+        "stop" : 1656444364808,
+        "duration" : 1509
+      }
+    }, {
+      "uid" : "e47461088e429508",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656443006805,
+        "stop" : 1656443007567,
+        "duration" : 762
+      }
+    }, {
+      "uid" : "4cabe90ca7525873",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656435219899,
+        "stop" : 1656435220375,
+        "duration" : 476
+      }
+    }, {
+      "uid" : "d18544ee158c42bc",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656430161935,
+        "stop" : 1656430162306,
+        "duration" : 371
+      }
+    }, {
+      "uid" : "6ee0ecc41c51567f",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656430108825,
+        "stop" : 1656430109199,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "3b6a02be8cd2ac55",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656429986824,
+        "stop" : 1656429994339,
+        "duration" : 7515
+      }
+    }, {
+      "uid" : "5aaff3b4843ba2ae",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656429804900,
+        "stop" : 1656429812258,
+        "duration" : 7358
+      }
+    }, {
+      "uid" : "6ab8d29c0bf62606",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656429587713,
+        "stop" : 1656429588093,
+        "duration" : 380
+      }
+    }, {
+      "uid" : "140bffa3309f9e8f",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656429494580,
+        "stop" : 1656429494929,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "1582c89b3ea9ca1c",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656429306396,
+        "stop" : 1656429306768,
+        "duration" : 372
+      }
+    }, {
+      "uid" : "dccaecf41070dddc",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656429146735,
+        "stop" : 1656429147061,
+        "duration" : 326
+      }
+    }, {
+      "uid" : "5684aedc170849bc",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656429004664,
+        "stop" : 1656429005027,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "8efb2ae3c85e88be",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656428806664,
+        "stop" : 1656428807039,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "435b3b628616d201",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656428728328,
+        "stop" : 1656428730230,
+        "duration" : 1902
+      }
+    }, {
+      "uid" : "34965868430a4060",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656428420102,
+        "stop" : 1656428427083,
+        "duration" : 6981
+      }
+    }, {
+      "uid" : "a3e85f5f3adc6c3d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656428404559,
+        "stop" : 1656428411715,
+        "duration" : 7156
+      }
+    }, {
+      "uid" : "8b34ebfaa7c79b46",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656428302698,
+        "stop" : 1656428309665,
+        "duration" : 6967
+      }
+    }, {
+      "uid" : "4b45d3119bf74344",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656428010841,
+        "stop" : 1656428017899,
+        "duration" : 7058
+      }
+    }, {
+      "uid" : "5151bc1afbcfaefd",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656427799610,
+        "stop" : 1656427806752,
+        "duration" : 7142
+      }
+    }, {
+      "uid" : "5f21e7617dfd34bc",
+      "status" : "broken",
+      "statusDetails" : "assert is not defined",
+      "time" : {
+        "start" : 1656427331570,
+        "stop" : 1656427338591,
+        "duration" : 7021
+      }
+    }, {
+      "uid" : "84dfc85a932ab4a7",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656427078861,
+        "stop" : 1656427085852,
+        "duration" : 6991
+      }
+    }, {
+      "uid" : "e2e0128249b06613",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656426996254,
+        "stop" : 1656427003084,
+        "duration" : 6830
+      }
+    }, {
+      "uid" : "45f626aa448221a9",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#start #button\" because element wasn't found",
+      "time" : {
+        "start" : 1656426960685,
+        "stop" : 1656426974705,
+        "duration" : 14020
+      }
+    }, {
+      "uid" : "bd2285a7a2408ef4",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#start #button\" because element wasn't found",
+      "time" : {
+        "start" : 1656426489721,
+        "stop" : 1656426501480,
+        "duration" : 11759
+      }
+    }, {
+      "uid" : "de5bf3e8db6ed6e",
+      "status" : "broken",
+      "statusDetails" : "element (\"#finish h4\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1656426392780,
+        "stop" : 1656426443133,
+        "duration" : 50353
+      }
+    }, {
+      "uid" : "15c125703fc7c8db",
+      "status" : "broken",
+      "statusDetails" : "element (\"#finish h4\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1656426330854,
+        "stop" : 1656426343148,
+        "duration" : 12294
+      }
+    }, {
+      "uid" : "41717490cd4a6200",
+      "status" : "broken",
+      "statusDetails" : "element (\"#finish h4\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1656426283084,
+        "stop" : 1656426295146,
+        "duration" : 12062
+      }
+    }, {
+      "uid" : "cf7d058e0ce9cc43",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656426263739,
+        "stop" : 1656426265708,
+        "duration" : 1969
+      }
+    }, {
+      "uid" : "4975789c8993f838",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656426233916,
+        "stop" : 1656426235823,
+        "duration" : 1907
+      }
+    }, {
+      "uid" : "438ff0b0b187a11c",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656426122695,
+        "stop" : 1656426124589,
+        "duration" : 1894
+      }
+    }, {
+      "uid" : "2a6e5f3a46a6a8ad",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425733862,
+        "stop" : 1656425734159,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "d5d7a51fb123ba08",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425536827,
+        "stop" : 1656425544214,
+        "duration" : 7387
+      }
+    }, {
+      "uid" : "a00cd1cea9e40969",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425489968,
+        "stop" : 1656425497268,
+        "duration" : 7300
+      }
+    }, {
+      "uid" : "64d01955d108e283",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425366581,
+        "stop" : 1656425366888,
+        "duration" : 307
+      }
+    }, {
+      "uid" : "f77c0ad6d834e7a8",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425213519,
+        "stop" : 1656425213823,
+        "duration" : 304
+      }
+    }, {
+      "uid" : "57c584ca286a284e",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425188319,
+        "stop" : 1656425188549,
+        "duration" : 230
+      }
+    }, {
+      "uid" : "d7689fe526304e38",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello      World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425151955,
+        "stop" : 1656425152256,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "1fd5b2aa8c3cf12e",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello      World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656425080227,
+        "stop" : 1656425080591,
+        "duration" : 364
+      }
+    }, {
+      "uid" : "ad034267adfbcc25",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656425047213,
+        "stop" : 1656425047571,
+        "duration" : 358
+      }
+    }, {
+      "uid" : "7f9723334a028a4c",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656424937290,
+        "stop" : 1656424937549,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "5590030f61cb8149",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656424800262,
+        "stop" : 1656424800524,
+        "duration" : 262
+      }
+    }, {
+      "uid" : "8f6084296c7bfe82",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656424625145,
+        "stop" : 1656424625395,
+        "duration" : 250
+      }
+    }, {
+      "uid" : "43e0b84de9224e5d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656422662457,
+        "stop" : 1656422669724,
+        "duration" : 7267
+      }
+    }, {
+      "uid" : "f71255ceb9c5528b",
+      "status" : "broken",
+      "statusDetails" : "element (\"#finish\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1656422602057,
+        "stop" : 1656422623242,
+        "duration" : 21185
+      }
+    }, {
+      "uid" : "c7fa4f6ba4a19234",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656422097630,
+        "stop" : 1656422104958,
+        "duration" : 7328
+      }
+    }, {
+      "uid" : "d11d752b89858fd3",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656421522530,
+        "stop" : 1656421524597,
+        "duration" : 2067
+      }
+    }, {
+      "uid" : "7ce254708bfa99c4",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656421484313,
+        "stop" : 1656421486373,
+        "duration" : 2060
+      }
+    }, {
+      "uid" : "7fa2739da8a90e55",
+      "status" : "broken",
+      "statusDetails" : "reverse is not defined",
+      "time" : {
+        "start" : 1656421432319,
+        "stop" : 1656421434338,
+        "duration" : 2019
+      }
+    }, {
+      "uid" : "cd1076bb18711108",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656421119725,
+        "stop" : 1656421127026,
+        "duration" : 7301
+      }
+    }, {
+      "uid" : "cee837c43172d15d",
+      "status" : "broken",
+      "statusDetails" : "assert is not defined",
+      "time" : {
+        "start" : 1656420955075,
+        "stop" : 1656420962374,
+        "duration" : 7299
+      }
+    }, {
+      "uid" : "fba707319628bde",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656420893058,
+        "stop" : 1656420900378,
+        "duration" : 7320
+      }
+    }, {
+      "uid" : "15cac0a44ee0159d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656420603636,
+        "stop" : 1656420610934,
+        "duration" : 7298
+      }
+    }, {
+      "uid" : "939e9abdaa7fcac9",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656420546883,
+        "stop" : 1656420547153,
+        "duration" : 270
+      }
+    }, {
+      "uid" : "524cc54145a9d98b",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656420502690,
+        "stop" : 1656420502953,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "a984190f4c89e4de",
+      "status" : "broken",
+      "statusDetails" : "text.getText is not a function",
+      "time" : {
+        "start" : 1656420407340,
+        "stop" : 1656420414683,
+        "duration" : 7343
+      }
+    }, {
+      "uid" : "a4093eb69572b551",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656420302557,
+        "stop" : 1656420309990,
+        "duration" : 7433
+      }
+    }, {
+      "uid" : "488c770710255bd1",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656420270427,
+        "stop" : 1656420270758,
+        "duration" : 331
+      }
+    }, {
+      "uid" : "978808f243f5c709",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656420224040,
+        "stop" : 1656420224428,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "4ad109c78e70c2e2",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656420123624,
+        "stop" : 1656420123925,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "ecb569b7ad5a6810",
+      "status" : "broken",
+      "statusDetails" : "textFinish.waitForDisplayed(...).getText is not a function",
+      "time" : {
+        "start" : 1656420021090,
+        "stop" : 1656420021408,
+        "duration" : 318
+      }
+    }, {
+      "uid" : "8489559fe0eb3747",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656419905875,
+        "stop" : 1656419906193,
+        "duration" : 318
+      }
+    }, {
+      "uid" : "7a39ecfd5f362d23",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656419816502,
+        "stop" : 1656419816792,
+        "duration" : 290
+      }
+    }, {
+      "uid" : "370154cb8596f043",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656419701633,
+        "stop" : 1656419701972,
+        "duration" : 339
+      }
+    }, {
+      "uid" : "f05dd5704eaa5080",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1656419659325,
+        "stop" : 1656419659612,
+        "duration" : 287
+      }
+    }, {
+      "uid" : "13ec56cc2822aaf",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}",
+      "time" : {
+        "start" : 1656419529142,
+        "stop" : 1656419531225,
+        "duration" : 2083
+      }
+    }, {
+      "uid" : "b8ca59546536805c",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}",
+      "time" : {
+        "start" : 1656419475590,
+        "stop" : 1656419475968,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "d11fa31ca0fdbb36",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World\"\n                Received: {}",
+      "time" : {
+        "start" : 1656419301971,
+        "stop" : 1656419302263,
+        "duration" : 292
+      }
+    }, {
+      "uid" : "f717c242c0ba352b",
+      "status" : "failed",
+      "statusDetails" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned",
+      "time" : {
+        "start" : 1656419115015,
+        "stop" : 1656419115316,
+        "duration" : 301
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "283a0f6fb8e0d424.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

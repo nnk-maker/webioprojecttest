@@ -1,0 +1,193 @@
+{
+  "uid" : "f717c242c0ba352b",
+  "name" : "wait for the hidden element to show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to show",
+  "historyId" : "a8e9dd4e8b3135358cd6180968fffa68",
+  "time" : {
+    "start" : 1656419115015,
+    "stop" : 1656419115316,
+    "duration" : 301
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned",
+  "statusTrace" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:8:38)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned",
+    "statusTrace" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:8:38)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656419115030,
+        "stop" : 1656419115315,
+        "duration" : 285
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:8:38)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1656419115042,
+          "stop" : 1656419115315,
+          "duration" : 273
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\test\\specs\\dynamic-loading.e2e.js:8:38)\n                    at Context.executeAsync (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\krish\\OneDrive\\Desktop\\projecrrepository\\livechat\\webio\\webioproject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1656419115055,
+            "stop" : 1656419115313,
+            "duration" : 258
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/url",
+            "time" : {
+              "start" : 1656419115064,
+              "stop" : 1656419115114,
+              "duration" : 50
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "35d687b574d2cbed",
+              "name" : "Request",
+              "source" : "35d687b574d2cbed.json",
+              "type" : "application/json",
+              "size" : 67
+            }, {
+              "uid" : "6b7afdc64439b149",
+              "name" : "Response",
+              "source" : "6b7afdc64439b149.json",
+              "type" : "application/json",
+              "size" : 1020
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2
+          }, {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1656419115133,
+              "stop" : 1656419115151,
+              "duration" : 18
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "95ce92bbdda92a16",
+              "name" : "Request",
+              "source" : "95ce92bbdda92a16.json",
+              "type" : "application/json",
+              "size" : 50
+            }, {
+              "uid" : "f65e58f49db28c74",
+              "name" : "Response",
+              "source" : "f65e58f49db28c74.json",
+              "type" : "application/json",
+              "size" : 1024
+            } ],
+            "parameters" : [ ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2
+          } ],
+          "attachments" : [ {
+            "uid" : "e2695c41d086fa0e",
+            "name" : "Screenshot",
+            "source" : "e2695c41d086fa0e.png",
+            "type" : "image/png",
+            "size" : 6535
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 5
+        } ],
+        "attachments" : [ {
+          "uid" : "6f28c8fda78aee2f",
+          "name" : "Request",
+          "source" : "6f28c8fda78aee2f.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 6
+      } ],
+      "attachments" : [ {
+        "uid" : "9fde5a4df362d064",
+        "name" : "Request",
+        "source" : "9fde5a4df362d064.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f717c242c0ba352b.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}
